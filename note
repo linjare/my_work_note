@@ -1,0 +1,9 @@
+Windows下通过命令行抓log步骤
+首先
+adb logcat -c
+然后 选择进入log文件要保存的位置
+cd <文件保存目录> eg: cd Desktop
+然后执行下面的命令开始抓取log
+adb logcat -v time > xx.log
+最后抓取结束，关闭命令行
+=====================
